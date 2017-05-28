@@ -9,7 +9,7 @@ nodo_t* crear_nodo(int d);
 // Devuelve puntero al ultimo nodo de la lista.
 nodo_t* ultimo_nodo(nodo_t* H);
 
-// Agrega nodo en una lista. Devuelve nodo agregado.
+// Agrega dato en una lista. Devuelve puntero al nodo agregado.
 nodo_t* agregar_nodo(nodo_t** H, int d);
 
 // Cuenta los nodos en una lista.
